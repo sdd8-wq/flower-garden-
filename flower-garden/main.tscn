@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://bqnb5dfvsjm51"]
+
+[ext_resource type="Texture2D" uid="uid://cnk2yq2hd0upp" path="res://flower png .jpeg" id="1_0xm2m"]
+[ext_resource type="Texture2D" uid="uid://do6fpikj4f1xi" path="res://images.jpeg" id="2_h2yge"]
+
+[node name="main" type="Node2D" unique_id=1435831709]
+
+[node name="FlowerPng" type="Sprite2D" parent="." unique_id=280136437]
+position = Vector2(166, 477)
+scale = Vector2(0.20000003, 0.17750001)
+texture = ExtResource("1_0xm2m")
+
+[node name="FlowerPng2" type="Sprite2D" parent="." unique_id=1503747825]
+position = Vector2(658, 458)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("1_0xm2m")
+
+[node name="FlowerPng3" type="Sprite2D" parent="." unique_id=223991548]
+position = Vector2(400, 235)
+scale = Vector2(0.195, 0.1975)
+texture = ExtResource("1_0xm2m")
+
+[node name="butterfly" type="Sprite2D" parent="." unique_id=228609789]
+position = Vector2(436, 22.000015)
+scale = Vector2(0.3, 0.307)
+texture = ExtResource("2_h2yge")
