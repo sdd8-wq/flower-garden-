@@ -1,9 +1,11 @@
 [gd_scene format=3 uid="uid://bqnb5dfvsjm51"]
 
 [ext_resource type="Texture2D" uid="uid://cnk2yq2hd0upp" path="res://flower png .jpeg" id="1_0xm2m"]
+[ext_resource type="Script" uid="uid://l0mcvyk7bc5m" path="res://main.gd" id="1_h2yge"]
 [ext_resource type="Texture2D" uid="uid://do6fpikj4f1xi" path="res://images.jpeg" id="2_h2yge"]
 
 [node name="main" type="Node2D" unique_id=1435831709]
+script = ExtResource("1_h2yge")
 
 [node name="FlowerPng" type="Sprite2D" parent="." unique_id=280136437]
 position = Vector2(166, 477)
